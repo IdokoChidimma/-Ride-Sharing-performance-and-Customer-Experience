@@ -40,34 +40,96 @@ The dataset used for this analysis is provided in the file Rise Sharing Data Tab
 - PivotTables: it was created for various aggregations such as rides count by days of the week, counts by pickup/drop-off locations, Ride-type distribution, Ride Orders By Weather Type, Fare Amount Distribution With Surge Pricing, Payment Type, Fare Amount vs Traffic Levels. Manual sorting and filters is applied where specific order is required, for instance, Pickup & Drop-off locations:(Filtered Top 10 locations), Traffic Level:(sorted Low, Medium, High).
 - Pivot Charts: Bar and Columns charts are used for pickup/drop-off locations, Fare Amount vs Traffic Level. Line chart for Ride Demand By Days Of The Week, A pie chart visualizes ride type distribution, and Payment Type, Donut chart for Fare Amount Distribution With Surge Pricing, Combo for User Rating by Weather Condition & Duration.
   
-### 5. Interactivity with Slicers: Slicers are implemented for key categorical fields like Day of Week, Ride Status, and Traffic-Level. These slicers are connected to all relevant PivotTables and Pivot Charts on the dashboard, enabling dynamic filtering and cross-sectional analysis.
+# 5. Interactivity with Slicers: Slicers are implemented for key categorical fields like Day of Week, Ride Status, and Traffic-Level. These slicers are connected to all relevant PivotTables and Pivot Charts on the dashboard, enabling dynamic filtering and cross-sectional analysis.
 
-### 6. Dashboard Assembly: All calculated KPIs, PivotTables, and Pivot Charts are consolidated onto a single, interactive Excel dashboard sheet, formatted for clarity and ease of use.
+# 6. Dashboard Assembly: All calculated KPIs, PivotTables, and Pivot Charts are consolidated onto a single, interactive Excel dashboard sheet, formatted for clarity and ease of use.
 
 ## DATA ANALYSIS AND INSIGHTS
 
 - THE KEY PERFORMANCE INDICATORS (KPIs);
 To effectively evaluate and optimize the ride performance, several core KPIs were established using excel based calculations:
 
-![image](https://github.com/user-attachments/assets/39cc3e42-12fa-4e01-8d3d-5c7adb9e98d6) Total Revenue : $ 600,938
+💰 Total Revenue : $ 600,938
 This shows the sum of all rides amount, helping to assess financial performance and the impact of pricing strategies, especially under surge conditions.
 
-![image](https://github.com/user-attachments/assets/8e8be886-c263-4ad9-b5f6-e64ee6164b94) Total Rides completed: 8495
+🚗 Total Rides completed: 8495
 It measures the count of successful rides, serving as a primary indicator of platform usage and reliability.
 
-![image](https://github.com/user-attachments/assets/9f6ee6cd-6bcd-4a1e-948e-be88d6dc9ca3) Average Customer Rating : 3.73
+⭐ Average Customer Rating : 3.73
 Reflects customer satisfaction and correlates with driver behavior, traffic level, and ride experience.
 
-![image](https://github.com/user-attachments/assets/7448fd53-bed6-4596-b485-9ed226ac6f1d) Average Ride Duration (min): 54.03
+⌛ Average Ride Duration (min): 54.03
 Indicates the average time spent per trip or Ride, which varies with traffic levels, route, and weather condition. it is necessary for estimating service efficiency and planning improvements.
 
-![image](https://github.com/user-attachments/assets/539d1460-0fbb-47e9-a2ac-10381a6b9d8f) No-show Rate(%): 5.27%
+📈 No-show Rate(%): 5.27%
 It captures the rides cancellations or missed pickups, which signal operational inefficiencies or user dissatisfaction.
 
 ## ANALYSIS QUESTION AND INSIGHTS
 
-Customer Behavior & Preferences:-
-What are the most popular pickup and drop-off locations?
+# 1. Customer Behavior & Preferences:-
+
+- What are the most popular pickup and drop-off locations?
+Top Pickup Points: “Downtown,” “Financial District,” and “University” show consistently high ride starts, hinting at business travelers and students as core user groups.
+Drop-Off Diversity: Drop-offs are more spread out than pickups, Financial District, Mall, and Airport showing slightly higher counts. This suggests users often head home or to shopping areas helpful for targeted campaigns or partnerships.
+
+- How do weekend vs weekdays impact ride demand?
+Analysis of ride data reveals a clear pattern: weekday demand is consistently higher, driven primarily by commuter traffic during morning and evening hours, with Monday recording the peak volume at 4240. In contrast, weekend demand is less predictable, influenced by leisure activities and events, often peaking in the late afternoon and evening.
+This trend highlights the need for adaptive driver scheduling and flexible pricing models to optimize operations across different days.
+
+- Which vehicle types (SUV, Sedan, Motorcycle, Electric) are most preferred?
+Sedans Dominate: 40% of users choose sedans, followed by SUVs (30%), showing clear preferences for comfort and space.
+Low Use of Shared, Motorcycle, & Electric Options: Shared, Motorcycle, and Electric vehicles only contribute 10% each, suggesting either limited supply or lower customer trust opportunity areas for education, incentives, or availability improvements.
+
+# 2. Driver Performance & Efficiency:-
+
+- Which drivers have the highest and lowest rating?
+Top-Performing Driver: These high-performing drivers reflect a strong commitment to punctuality, professionalism, and customer satisfaction contributing significantly to ride completion and platform reliability.
+Low-Performing Driver: Low ratings may stem from issues such as customer complaints, delays, or poor communication. These drivers could be negatively affecting customer retention and overall platform reputation.
+
+# 3. Operational & Financial Insights:-
+
+- Which payment methods are most commonly used?
+  # Payment Behavior:
+Credit Card Dominate: With 4,946 transactions, credit card are the most popular payment mode, showing strong digital adoption.
+Cash (3,028) and Mobile Wallet (2,026) still play significant roles, suggesting a need to maintain multi-channel payment support.
+
+- How does surge pricing affect fare amount?
+# Total Revenue: The platform generated over $600K in total revenue, reflecting strong market demand and operational performance over the analysis period.
+
+Surge Pricing Impact: Approximately $480,566 of this revenue (80%) was earned during periods when surge pricing was active.
+In contrast, only $120,372 was generated without surge pricing.
+
+# 4. External Factors:-
+
+- How does weather condition (Rainy, Snowy, Foggy) impact ride duration and customer rating?
+The bar chart shows that ride duration is highest during thunderstorms (56 mins) and gradually decreases to 53 mins in foggy and snowy weather condition. Meanwhile, the line chart indicates that customer ratings are lowest during thunderstorms (3.66) and peak slightly during rainy weather (3.76). This suggests that longer rides in extreme weather, especially thunderstorms, negatively impact user satisfaction, while moderate weather like rain may be more tolerable.
+These delays may be caused by reduced visibility, cautious driving, and slower traffic flow.
+
+- What is the effect of traffic level (Low, Medium, High) on ride fare amount?
+The platform recorded the highest revenue of $302,046 during medium traffic, indicating an ideal balance between trip frequency and duration without delays. Under low traffic conditions, revenue reached $179,850 suggesting faster rides but lower demand or shorter trip distances. High traffic, despite increasing per-trip fares due to longer durations, resulted in the lowest total revenue $119,043 likely due to fewer completed rides and increased delays.
+Insight: Medium traffic offers the sweet spot for operational efficiency, while high traffic reduces volume, and low traffic may reflect off-peak demand.
+
+## 💡 RECOMMENDATION:
+
+1. ** Deploy more drivers in high -demand zones (eg, downtown, Financial districts) during peak hours. Use location heatmaps to dynamically adjust driver positioning and reduce rider wait time.
+2. ** Adjust driver scheduling to match high-demand weekday commute periods, and boost driver presence during weekend evenings when demand is more event-driven.
+3. ** Expand the sedan and SUV fleet to match customer preferences. Encourage the use of less-utilized vehicle types, such as electric and shared rides, by offering promotional discounts or launching eco-friendly ride campaigns to support sustainability goals.
+4. ** Recognize and reward top-rated drivers through bonuses or performance programs. For low-rated drivers, implement mentorship by top performers, and monitor improvement through regular reviews.
+5. ** Surge pricing should be used during peak periods to maximize revenue, but must be communicated to riders. Transparent pricing builds trust and prevents user dissatisfaction.
+6. ** Strengthen supports for digital payments ( Mobile wallet and cards) as they dominate usage. Promote cashless incentives and ensure seamless processing to improve customer experience and financial tracking.
+7. ** Alerts user and drivers in advance during poor weather. Provide real-time updates on delays and consider offering fare reduction during extreme conditions to preserve satisfaction.
+8. ** If a trip takes longer because of heavy traffic, adjusting the fare makes pricing fair for both the rider and the driver, keeping everyone satisfied.
+
+## 🛠 TOOLS USED
+- Microsoft Excel
+- PivotTables and Charts
+  
+
+
+## 🧠 CONCLUSION
+In conclusion, this Excel-based dashboard effectively provides a comprehensive view of the ride-sharing platform’s performance and customer experience. By centralizing key metrics and interactive visualizations, it empowers stakeholders to quickly identify operational trends, assess the impact of various factors, and understand customer behavior. This data-driven approach is crucial for optimizing driver efficiency and enhancing overall customer satisfaction.
+
+
 
 
 
