@@ -56,23 +56,23 @@ To effectively evaluate and optimize the ride performance, several core KPIs wer
 
 💰 Total Revenue : $ 600,938
 
-This shows the sum of all rides amount, helping to assess financial performance and the impact of pricing strategies, especially under surge conditions.
+   This shows the sum of all rides amount, helping to assess financial performance and the impact of pricing strategies, especially under    surge conditions.
 
 🚗 Total Rides completed: 8495
 
-It measures the count of successful rides, serving as a primary indicator of platform usage and reliability.
+  It measures the count of successful rides, serving as a primary indicator of platform usage and reliability.
 
 ⭐ Average Customer Rating : 3.73
 
-Reflects customer satisfaction and correlates with driver behavior, traffic level, and ride experience.
+   Reflects customer satisfaction and correlates with driver behavior, traffic level, and ride experience.
 
 ⌛ Average Ride Duration (min): 54.03
 
-Indicates the average time spent per trip or Ride, which varies with traffic levels, route, and weather condition. it is necessary for estimating service efficiency and planning improvements.
+   Indicates the average time spent per trip or Ride, which varies with traffic levels, route, and weather condition. it is necessary for    estimating service efficiency and planning improvements.
 
 📈 No-show Rate(%): 5.27%
 
-It captures the rides cancellations or missed pickups, which signal operational inefficiencies or user dissatisfaction.
+  It captures the rides cancellations or missed pickups, which signal operational inefficiencies or user dissatisfaction.
 
 ## ANALYSIS QUESTION AND INSIGHTS
 
@@ -80,49 +80,50 @@ It captures the rides cancellations or missed pickups, which signal operational 
 
 - What are the most popular pickup and drop-off locations?
   
-Top Pickup Points: “Downtown,” “Financial District,” and “University” show consistently high ride starts, hinting at business travelers and students as core user groups.
-Drop-Off Diversity: Drop-offs are more spread out than pickups, Financial District, Mall, and Airport showing slightly higher counts. This suggests users often head home or to shopping areas helpful for targeted campaigns or partnerships.
+  Top Pickup Points: “Downtown,” “Financial District,” and “University” show consistently high ride starts, hinting at business travelers   and students as core user groups.
+  Drop-Off Diversity: Drop-offs are more spread out than pickups, Financial District, Mall, and Airport showing slightly higher counts.     This suggests users often head home or to shopping areas helpful for targeted campaigns or partnerships.
 
 - How do weekend vs weekdays impact ride demand?
   
-Analysis of ride data reveals a clear pattern: weekday demand is consistently higher, driven primarily by commuter traffic during morning and evening hours, with Monday recording the peak volume at 4240. In contrast, weekend demand is less predictable, influenced by leisure activities and events, often peaking in the late afternoon and evening.
-This trend highlights the need for adaptive driver scheduling and flexible pricing models to optimize operations across different days.
+  Analysis of ride data reveals a clear pattern: weekday demand is consistently higher, driven primarily by commuter traffic during         morning and evening hours, with Monday recording the peak volume at 4240. In contrast, weekend demand is less predictable, influenced     by leisure activities and events, often peaking in the late afternoon and evening.
+  This trend highlights the need for adaptive driver scheduling and flexible pricing models to optimize operations across different days.
 
 - Which vehicle types (SUV, Sedan, Motorcycle, Electric) are most preferred?
   
-Sedans Dominate: 40% of users choose sedans, followed by SUVs (30%), showing clear preferences for comfort and space.
-Low Use of Shared, Motorcycle, & Electric Options: Shared, Motorcycle, and Electric vehicles only contribute 10% each, suggesting either limited supply or lower customer trust opportunity areas for education, incentives, or availability improvements.
+  Sedans Dominate: 40% of users choose sedans, followed by SUVs (30%), showing clear preferences for comfort and space.
+  Low Use of Shared, Motorcycle, & Electric Options: Shared, Motorcycle, and Electric vehicles only contribute 10% each, suggesting         either limited supply or lower customer trust opportunity areas for education, incentives, or availability improvements.
 
 # 2. Driver Performance & Efficiency:-
 
 - Which drivers have the highest and lowest rating?
 
-Top-Performing Driver: These high-performing drivers reflect a strong commitment to punctuality, professionalism, and customer satisfaction contributing significantly to ride completion and platform reliability.
-Low-Performing Driver: Low ratings may stem from issues such as customer complaints, delays, or poor communication. These drivers could be negatively affecting customer retention and overall platform reputation.
+  Top-Performing Driver: These high-performing drivers reflect a strong commitment to punctuality, professionalism, and customer            satisfaction contributing significantly to ride completion and platform reliability.
+  Low-Performing Driver: Low ratings may stem from issues such as customer complaints, delays, or poor communication. These drivers could   be negatively affecting customer retention and overall platform reputation.
 
 # 3. Operational & Financial Insights:-
 
 - Which payment methods are most commonly used?
   
-Payment Behavior: Credit Card Dominate: With 4,946 transactions, credit card are the most popular payment mode, showing strong digital adoption. Cash (3,028) and Mobile Wallet (2,026) still play significant roles, suggesting a need to maintain multi-channel payment support.
+  Payment Behavior: Credit Card Dominate: With 4,946 transactions, credit card are the most popular payment mode, showing strong digital    adoption. Cash (3,028) and Mobile Wallet (2,026) still play significant roles, suggesting a need to maintain multi-channel payment        support.
 
 - How does surge pricing affect fare amount?
   
- Total Revenue: The platform generated over $600K in total revenue, reflecting strong market demand and operational performance over the analysis period.
-Surge Pricing Impact: Approximately $480,566 of this revenue (80%) was earned during periods when surge pricing was active.
-In contrast, only $120,372 was generated without surge pricing.
+    Total Revenue: The platform generated over $600K in total revenue, reflecting strong market demand and operational performance over the analysis period.
+    
+    Surge Pricing Impact: Approximately $480,566 of this revenue (80%) was earned during periods when surge pricing was active.
+    In contrast, only $120,372 was generated without surge pricing.
 
 # 4. External Factors:-
 
 - How does weather condition (Rainy, Snowy, Foggy) impact ride duration and customer rating?
   
-The bar chart shows that ride duration is highest during thunderstorms (56 mins) and gradually decreases to 53 mins in foggy and snowy weather condition. Meanwhile, the line chart indicates that customer ratings are lowest during thunderstorms (3.66) and peak slightly during rainy weather (3.76). This suggests that longer rides in extreme weather, especially thunderstorms, negatively impact user satisfaction, while moderate weather like rain may be more tolerable.
-These delays may be caused by reduced visibility, cautious driving, and slower traffic flow.
+    The bar chart shows that ride duration is highest during thunderstorms (56 mins) and gradually decreases to 53 mins in foggy and snowy weather condition. Meanwhile, the line chart indicates that customer ratings are lowest during thunderstorms (3.66) and peak slightly during rainy weather (3.76). This suggests that longer rides in extreme weather, especially thunderstorms, negatively impact user satisfaction, while moderate weather like rain may be more tolerable.
+    These delays may be caused by reduced visibility, cautious driving, and slower traffic flow.
 
 - What is the effect of traffic level (Low, Medium, High) on ride fare amount?
   
-The platform recorded the highest revenue of $302,046 during medium traffic, indicating an ideal balance between trip frequency and duration without delays. Under low traffic conditions, revenue reached $179,850 suggesting faster rides but lower demand or shorter trip distances. High traffic, despite increasing per-trip fares due to longer durations, resulted in the lowest total revenue $119,043 likely due to fewer completed rides and increased delays.
-Insight: Medium traffic offers the sweet spot for operational efficiency, while high traffic reduces volume, and low traffic may reflect off-peak demand.
+    The platform recorded the highest revenue of $302,046 during medium traffic, indicating an ideal balance between trip frequency and duration without delays. Under low traffic conditions, revenue reached $179,850 suggesting faster rides but lower demand or shorter trip distances. High traffic, despite increasing per-trip fares due to longer durations, resulted in the lowest total revenue $119,043 likely due to fewer completed rides and increased delays.
+    Insight: Medium traffic offers the sweet spot for operational efficiency, while high traffic reduces volume, and low traffic may reflect off-peak demand.
 
 ## 💡 RECOMMENDATION:
 
