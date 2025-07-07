@@ -4,7 +4,7 @@
 As a leading ride-sharing platform, the core objective is to enhance ride efficiency, optimize pricing strategies, and most importantly enhance and improve customer satisfaction. By thoroughly analyzing ride data, the aim is to uncover key insights into user behavior, driver performance, and existing operational bottlenecks. This approach enables the platform to make data-driven decisions which helps in growth and efficiency.
 ## PROBLEM STATEMENT
 This analysis address several business question based on the dataset provided;
-- ** Customer Behavior & Preferences:-
+- **Customer Behavior & Preferences:-
 What are the most popular pickup and drop-off locations?
 How do weekend vs weekdays impact ride demand?
 Which vehicle types (SUV, Sedan, Motorcycle, Electric) are most preferred?
