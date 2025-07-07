@@ -29,11 +29,14 @@ The dataset used for this analysis is provided in the file Rise Sharing Data Tab
 
 ## 🔧 METHODOLOGY
 
-### 1. DATA CLEANING AND PREPARATION: The raw data is loaded into excel. Essential columns are created, such as ‘Day of Week’ (using TEXT() function), ‘Hour of Day’ (using HOUR() function), to facilitate time-based analysis. Data parsing with “Text to Columns” is applied to ensure correct interpretation of date/time fields.
+### 1. DATA CLEANING AND PREPARATION: 
+The raw data is loaded into excel. Essential columns are created, such as ‘Day of Week’ (using TEXT() function), ‘Hour of Day’ (using HOUR() function), to facilitate time-based analysis. Data parsing with “Text to Columns” is applied to ensure correct interpretation of date/time fields.
 
-### 2. Data Types: All the data contained in the tables was properly checked and verify to ensure correct data type. This helps to ensure an error-free analyses and calculations.
+### 2. Data Types:
+All the data contained in the tables was properly checked and verify to ensure correct data type. This helps to ensure an error-free analyses and calculations.
 
-### 3. Key Metrics & KPIs calculation: Core performance indicators like Total Revenue(SUM of Fare Amount), Total Rides completed, Average Customer Rating, Average Ride duration(Min), and No-Show Rate(%) are calculated. For dynamic KPIs like No-Show Rate that respond to filters, values are derived from two interconnected PivotTables.
+### 3. Key Metrics & KPIs calculation:
+Core performance indicators like Total Revenue(SUM of Fare Amount), Total Rides completed, Average Customer Rating, Average Ride duration(Min), and No-Show Rate(%) are calculated. For dynamic KPIs like No-Show Rate that respond to filters, values are derived from two interconnected PivotTables.
 
 ### 4. Data Visualization(PivotTables & Charts):
 
@@ -104,6 +107,7 @@ Low-Performing Driver: Low ratings may stem from issues such as customer complai
 Payment Behavior: Credit Card Dominate: With 4,946 transactions, credit card are the most popular payment mode, showing strong digital adoption. Cash (3,028) and Mobile Wallet (2,026) still play significant roles, suggesting a need to maintain multi-channel payment support.
 
 - How does surge pricing affect fare amount?
+  
  Total Revenue: The platform generated over $600K in total revenue, reflecting strong market demand and operational performance over the analysis period.
 Surge Pricing Impact: Approximately $480,566 of this revenue (80%) was earned during periods when surge pricing was active.
 In contrast, only $120,372 was generated without surge pricing.
